@@ -6,7 +6,7 @@ from flask import request
 
 from flask import Flask, redirect, url_for, request
 app = Flask(__name__)
-API_KEY = 'd5d62edc057317ae013dad4821eb7524fb5b4045'
+API_KEY = ''
 API_URL = 'https://api.esv.org/v3/passage/text/'
 
 @app.route('/search/<passage>',methods=['post','get'])
